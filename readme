@@ -1,0 +1,12 @@
+1. client目录下为socket编写的client源码
+2. server目录下为socket编写的server源码
+
+3. 编译生成client可执行文件，在client目录下使用命令gcc client.c main.c -lpthread -o client
+4. 编译生成server可执行文件，在server目录下使用命令gcc server.c -lpthread -o server
+
+5. 启动服务器程序，./server
+6. 启动客户端程序，./client
+
+7. 在客户端界面数据任意字符串并回车后，可在服务端打印输入的字符串
+
+注意：客户端和服务端程序均在同一台电脑上运行即可。
